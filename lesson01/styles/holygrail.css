@@ -14,12 +14,14 @@ body {
   nav {
     background: lightgreen;
     grid-column: 1 / 3;
+    padding: 1rem;
   }
   
   
   main {
     background: coral;
     grid-column: 1 / 3;
+    padding: 1rem;
   }
   
   .right-sidebar {
