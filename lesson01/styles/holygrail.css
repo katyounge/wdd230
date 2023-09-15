@@ -22,6 +22,7 @@ body {
     background: coral;
     height: 100%;
     padding: 1rem;
+    grid-column: 1 / 2;
   }
   
   .right-sidebar {
