@@ -33,10 +33,12 @@ h3 {
     border-radius: .5em .5em 0 0
 }
 
-a:link {
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: white;
 }
+
+a:
 
 
 main {
