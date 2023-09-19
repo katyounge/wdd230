@@ -33,9 +33,14 @@ h3 {
     border-radius: .5em .5em 0 0
 }
 
-a:link, a:visited, a:hover, a:active {
+nav a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: white;
+}
+
+main a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    color: black;
 }
 
 
@@ -52,6 +57,10 @@ nav li, #information li {
 
 #learning ul {
     list-style-type: none;
+}
+
+main ul li {
+    color: black;
 }
 
 header {
@@ -88,6 +97,7 @@ main {
     max-width: 500px;
     margin: auto;
     width: 100%;
+    color: black;
   }
 
 footer {
