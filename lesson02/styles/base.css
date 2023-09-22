@@ -1,0 +1,68 @@
+/* This is the style sheet for design-principles.html*/
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+
+header {
+    background-color: #343a40;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    border-radius: .25em ;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+    
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    border-radius: .25em ;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #343a40;
+    padding: 1em;
+}
+
+
+main {
+    height: 100%;
+    display: grid;
+    column-span: all;
+    grid-gap: 1rem;
+    max-width: 800px;
+    margin: auto;
+    color: black;
+  }
+
+
+.card {
+    /*border-style: solid;
+    border-color: #6c757d;
+    border-width: 1px; */
+    margin:6px;
+    border-radius: .25em ;
+    padding: 1em;
+    background-color: #f8f9fa;
+        
+ }
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+ }
+
+ p {
+    font-size: 1.25em;
+ }
+
+ footer {
+    text-align: center;
+ }
