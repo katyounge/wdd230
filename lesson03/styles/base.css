@@ -1,15 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Poppins&display=swap");
-
-/*font-family: 'Barlow', sans-serif;
-font-family: 'Bitter', serif;
-font-family: 'Poppins', sans-serif;*/
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Nunito Sans', sans-serif; */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #414042;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bitter', serif;
+    font-family: 'DM Serif Display', serif;
     
 }
 
@@ -23,26 +21,15 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: #414042 ;
     text-align: center;
-    background-color: #333333;
+    background-color: #9aeba3;
     padding: 0.5em;
     margin: 0;
     border-radius: .5em .5em 0 0
 }
 
-nav a {
-    display: block;
-}
 
-nav a:hover {
-    border: 1px solid #fff;
-}
-
-nav a:link, nav a:visited, nav a:hover, nav a:active {
-    text-decoration: none;
-    color: white;
-}
 
 main a:link, main a:visited, main a:hover, main a:active {
     text-decoration: underline;
@@ -71,7 +58,7 @@ main ul li {
 
 header {
     max-width: 800px;
-    background: #333333;
+    background-color: #13678a;
     padding: 1rem;
     grid-column: 1 / 3;
     margin: auto;
@@ -118,11 +105,21 @@ footer {
   }
 
 .card {
-    border-style: solid;
-    border-width: .5px;
+    border-bottom: solid;
+    border-width: .5px; 
     margin:6px;
     border-radius: .5em ;
+    
+    }
+
+.card p, .card li {
+    padding: 1em;
+}
         
+ 
+ .card img {
+    width: 100%;
+    
  }
 
  #headshot, #name-heading {
@@ -137,57 +134,3 @@ footer {
     align-items: center;
     padding: 2em 1em
  }
-
- #menu {
-	font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
-	padding: 3px 7px 6px;
-	background-color: #eee;
-	color: #000;
- 	position: absolute;
-	right: 5px;
-	top: 5px;
-}
-
-#menu::before {
-	content: "☰";
-}
-
-#menu.show::before {
-	content: "❎";
-}
-
-.navigation {
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-	background-color: #023047;
-	color: #fff;
-}
-.navigation li {
-	display: none;
-}
-.navigation li a {
-	display: block;
-	padding: 1rem;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-}
-
-.show li {
-	display: block;
-}
-.show li a {
-	display: block;
-}
-
-.active::before {
-	content: "🦋";
-}
-
-#map-embed {
-    grid-column: 1 / 3;
-    margin:auto;
-    
-}
