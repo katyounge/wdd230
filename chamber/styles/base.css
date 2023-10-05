@@ -28,8 +28,9 @@ h2 {
 
 header {
     max-width: var(--max-width);
-    margin: auto;
+    margin: auto auto 30px auto;
     grid-column: 1 / 3;
+    
 }
 
 #header h1 {
@@ -186,8 +187,8 @@ footer {
 	background-color: #eee;
 	color: #000;
  	position: absolute;
-	right: 5px;
-	top: 5px;
+	right: 45%;
+	top: 120px;
 }
 
 .navigation li {
@@ -208,3 +209,14 @@ footer {
 .show li a {
 	display: block;
 }
+
+#events {
+    background-color: var(--highlight-color);
+    padding: 1em;
+}
+
+.events {
+    display: grid;
+    
+}
+
