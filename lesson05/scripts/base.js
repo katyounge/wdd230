@@ -2,8 +2,7 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
-button.addEventListner('click', () => {
-    if (input.value != '') {
+button.addEventListener('click', function(){if (input.value != '') {
     const li = document.createElement('li');
     const deleteButton = document.createElement('button');
 
@@ -19,7 +18,7 @@ button.addEventListner('click', () => {
     });
 
     input.focus();
-    input.value = '';
+    input.textContent = '';
 
 
 
