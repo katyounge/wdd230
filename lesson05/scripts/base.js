@@ -24,9 +24,10 @@ button.addEventListener('click', function(){if (input.value != '') {
     });
 
     highlightButton.addEventListener('click', function(){
-      li.classList.add('highlight');
+      li.classList.toggle('highlight');
+    });
 
-  });
+
 
     input.focus();
     input.textContent = '';
