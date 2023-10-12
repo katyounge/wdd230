@@ -67,3 +67,8 @@ li {
 		width: 320px;
 	}
 }
+
+.highlight {
+	background-color: yellow;
+	padding: 1em;
+}
