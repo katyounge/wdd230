@@ -12,6 +12,7 @@ button.addEventListener('click', function(){if (input.value != '') {
 
     li.textContent = input.value;
     deleteButton.textContent = '❎';
+    deleteButton.setAttribute('aria-label', `Remove ${input.value}`);
     highlightButton.textContent = '❤️';
     li.append(highlightButton);
     li.append(deleteButton);
