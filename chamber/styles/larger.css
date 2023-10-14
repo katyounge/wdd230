@@ -63,5 +63,20 @@
 		flex: 1 1 100%;
 	}
 
+    footer {
+        height: 100%;
+    }
+    
+    #footer-contact {
+    float: left;
+    text-align: left;
+
+    }
+
+    #footer-info {
+        float: right;
+        text-align: right;
+    }
+
 }
     
