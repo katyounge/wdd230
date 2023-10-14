@@ -184,8 +184,8 @@ footer {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
-	background-color: #eee;
-	color: #000;
+	background-color: var(--header-color);
+	color: var(--highlight-text-color);
  	position: absolute;
 	right: 45%;
 	top: 120px;
