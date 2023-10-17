@@ -34,7 +34,10 @@ toggleSwitch.addEventListener('click', () => {
 // 	}
 // })
 
+
+
     // toggleSwitch.addEventListener('click', () => {
     //   toggle.classList.toggle('on');
 	//   document.getElementsByTagName('main').style.color = "white";
     // });
+
