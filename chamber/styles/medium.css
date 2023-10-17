@@ -48,6 +48,7 @@
 
     #call-to-action {
         grid-column: 1 / 4;
+        padding: 1em 0em;
         
     }
 
@@ -133,7 +134,6 @@
     }
 
     .carousel{
-        width:90%;
         grid-column: 1 / 3;
     }
 
