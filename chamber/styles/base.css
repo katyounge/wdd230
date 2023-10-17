@@ -246,3 +246,25 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
     }
+
+
+
+
+
+    .carousel{
+        max-width: var(--max-width);
+        max-height:384px;
+        margin: auto auto 30px auto;
+    }
+
+    #carousel-img{
+        max-width: var(--max-width);
+        min-width: 300px;
+        object-fit: contain;
+    }
+
+    #img1 {
+        max-width: var(--max-width);
+        max-height:384px;
+        margin: auto auto 30px auto;
+    }
