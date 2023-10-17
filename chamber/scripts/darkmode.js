@@ -1,4 +1,5 @@
 const toggleSwitch = document.getElementById('engaged');
+const callToAction = document.getElementById('call-to-action');
 
 toggleSwitch.addEventListener('change', function () {
 	if (this.checked) {

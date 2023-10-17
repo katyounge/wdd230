@@ -1,6 +1,6 @@
 :root {
     --body-font-family: 'Nunito Sans', sans-serif;
-    --header-font-family: 'DM Serif Display', serif;
+    --header-font-family: 'Playfair Display', serif;
     --header-color: #13678A;
     --highlight-color: #9AEBA3;
     --text-color: #414042;
@@ -53,6 +53,15 @@ header img {
     color: var(--highlight-text-color);
 }
 
+.dark-mode-action {
+    background-color: black;
+}
+
+.dark-mode-footer {
+    background-color: var(--text-color);
+    color: var(--highlight-text-color);
+}
+
 main {
     padding: 1rem;
     width: clamp(300px, 100%, var(--max-width));
@@ -83,7 +92,7 @@ nav {
     background: var(--header-color);
     margin: auto;
     color: var(--highlight-text-color);
-    padding: .25em 0 .25em 0;
+    /* padding: .25em 0 .25em 0; */
 }
 
 nav ul {
@@ -156,6 +165,7 @@ footer {
 
 #menu::before {
 	content: "☰";
+    text-align: center;
 }
 
 #menu.show::before {
