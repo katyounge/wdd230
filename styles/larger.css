@@ -41,4 +41,10 @@
         margin-right: auto;  
     }
 
+    .temple-picture p {
+        top: 15%;
+        left: 10%;
+    
+    }
+
 }
