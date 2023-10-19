@@ -22,10 +22,12 @@
 
   <body>
     <header id="header">
-        <img src="images/bridge-banner.jpg" alt="Duvall 124th Bridge" id="bridge-banner" width="1200" height="362">
-        <h1 id="name-heading">Duvall Chamber of Commerce</h1>
-        
-          
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 920px)">
+            <img src="images/hero-large.webp" alt="cedar city temple" width="1200" height="362">
+        </picture>
+        <h1 id="name-heading">Duvall Chamber of Commerce</h1>      
     </header>
 
     <nav>
@@ -137,7 +139,7 @@
             </div>
         </section> -->
 
-        <section>
+        <!-- <section>
         <div class="carousel">
             <div id="carousel-img"> 
                 <div id="img1">
@@ -145,11 +147,20 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
             
+
+        <section>
+            <div class="css-carousel">
+                <img src="images/cheris-place.jpg" alt="Cheri's Place Ad" class="cheri" width="1200" height="384">
+                <img src="images/foundry-bar-and-grill.png" alt="Cheri's Place Ad" class="cheri" width="1200" height="384">
+                <img src="images/duvall-auto.jpg" alt="Cheri's Place Ad" class="cheri" width="1200" height="384">
+            </div>
+
+        </section>
         <section class="weather">
             <h3>Current Weather</h3>              
-            <p>current weather</p>
+            <P><span>Temperature: </span><span class="temp">50</span><span> °F</span><span> - Wind Speed: </span><span class="speed">30</span><span>mph</span><span> - Wind Chill: </span><span class="windchill"></span></P>
         </section>
         
     </main>
@@ -167,5 +178,6 @@
     <script src="scripts/navigation.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/slider.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
