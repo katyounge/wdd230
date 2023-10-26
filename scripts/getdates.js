@@ -25,4 +25,4 @@ if (numVisits !== 0) {
 
 numVisits++;
 
-localStorage.setItem('numVisits-1s', numVisits);
+localStorage.setItem('numVisits-ls', numVisits);
