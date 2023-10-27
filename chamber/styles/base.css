@@ -295,7 +295,9 @@ input:checked + .slider:before {
 
 .images figure {
     width: 100%;
-    padding: 0;
+    height: auto;
+    margin: auto;
+    padding: 1em 0em;
 }
 
 .sidebar-content img {

@@ -149,7 +149,22 @@
     .sidebar-content {
         grid-column: 1 / 2;
         grid-row-start: 1;
-        width: 200px;
+        width: 250px;
+    }
+
+    footer {
+        height: 100%;
+    }
+    
+    #footer-contact {
+    float: left;
+    text-align: left;
+
+    }
+
+    #footer-info {
+        float: right;
+        text-align: right;
     }
 
 }
