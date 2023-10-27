@@ -305,3 +305,26 @@ input:checked + .slider:before {
     height: auto;
     margin: auto;
 }
+
+figcaption {
+    color: var(--header-color);
+    text-align: center;
+    padding: .5em;
+}
+
+.visit-message {
+    color: var(--header-color);
+    font-size: 1em;
+    font-weight:bold;
+    text-align: center;
+    background-color: var(--highlight-color);
+    padding: 1em;
+}
+
+.weather {
+    background-color: #414042;
+    color: var(--highlight-text-color);
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
