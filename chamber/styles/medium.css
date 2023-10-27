@@ -142,4 +142,14 @@
         grid-column: 1 / 3;
     }
 
+    .images {
+        grid-column: 2 / 4;
+    }
+
+    .sidebar-content {
+        grid-column: 1 / 2;
+        grid-row-start: 1;
+        width: 200px;
+    }
+
 }

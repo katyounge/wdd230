@@ -32,10 +32,10 @@ header {
 
 #header h1 {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 10%;
     width: 100%;
-    color: gray;
+    color: var(--highlight-text-color);
     font-size: clamp(1.5em, 1.5vw, 2rem);
     
 }
@@ -296,4 +296,10 @@ input:checked + .slider:before {
 .images figure {
     width: 100%;
     padding: 0;
+}
+
+.sidebar-content img {
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
