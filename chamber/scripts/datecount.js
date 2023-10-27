@@ -32,7 +32,7 @@ let lastVisitDate = getLastVisitDate();
 
 
 
-if (lastVisitDate == 0) {
+if (lastVisitDate == null) {
     visitMessage.textContent = "Welcome! Let us know if you have any questions.";
 } else {
     let dayMs = 86400000
