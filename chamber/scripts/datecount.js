@@ -48,18 +48,18 @@ if (lastVisitDate == 0) {
 };
 
 
-const visitCount = document.querySelector('.visit-count');
-let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
+// const visitCount = document.querySelector('.visit-count');
+// let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
 
-if (numVisits == 0) {
-    visitCount.textContent = `This is your first visit. 🥳 Welcome!`;
+// if (numVisits == 0) {
+//     visitCount.textContent = `This is your first visit. 🥳 Welcome!`;
 	
-} else {
-	visitCount.textContent = numVisits;
-}
+// } else {
+// 	visitCount.textContent = numVisits;
+// }
 
-numVisits++;
+// numVisits++;
 
 setLastVisitDate();
 
-localStorage.setItem('numVisits-ls', numVisits);
+// localStorage.setItem('numVisits-ls', numVisits);
