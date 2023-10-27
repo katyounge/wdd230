@@ -277,3 +277,23 @@ input:checked + .slider:before {
         max-height:384px;
         margin: auto auto 30px auto;
     }
+
+
+    /* .images{
+
+    max-width: var(--max-width);
+    min-width: 300px;
+    object-fit: contain;
+    
+} */
+
+.images img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.images figure {
+    width: 100%;
+    padding: 0;
+}
