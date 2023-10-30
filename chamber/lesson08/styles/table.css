@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.gray {
+    background-color: #333333;
+    color: white;
+}
+
+.head {
+    font-size: 1.5em;
+    padding: .7em;
+}
+
+td {
+    text-align: center;
+    padding: .5em;
+}
+
+caption {
+    text-align: center;
+    caption-side: bottom;
+    padding: 0 0 5em 0;
+}
+
+table {
+    border: thin solid darkgray;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8e9eb;
+}
+
+tbody td {
+    border: thin solid darkgray;
+}
+
+tbody th {
+    border: thin solid darkgray;
+    padding: .5em 1em;
+}
+
+thead th {
+    border: thin solid black;
+}
