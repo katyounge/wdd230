@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form build</title>
+<meta name="description" content="form build for Lesson 08">
+<meta name="author" content="Kathryn Thompson">
+<link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+<header></header>
+
+<div id="formmsg"></div>
+<h1>Form Build</h1>
+
+<main>
+    <form method="get" action="record.html">
+        <fieldset>
+            <legend>User Information</legend>
+            <label class="top">Username* <input type="text" id="fullname" name="fullname" required></label>
+            <label class="top">Password* <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{9,}"></label>
+            <label class="top">Password* <input type="password" id="password2" name="password2" placeholder="please repeat password"></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+            <label class="sbs">Page Rating <input type="range" name="rating" id='range' min="0" max="10" value="2" step="1"></label><span id="rangevalue">0</span>
+        </fieldset>
+
+        <input type="submit" value="Create Account" class="submitButton">
+    </form>
+</main>
+
+<footer>&copy;Kathryn Thompson | BYU-Idaho | WDD 230 - Fall 2023</footer>
+<script src="scripts/form.js"></script>
+</body>
+</html>
