@@ -7,14 +7,35 @@
 <meta name="description" content="form build for Lesson 08">
 <meta name="author" content="Kathryn Thompson">
 <link rel="stylesheet" href="styles/form.css">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/larger.css">
+<link rel="icon" href="thompson-favicon.ico">
 </head>
 <body>
-<header></header>
+    <header id="header">
+        <img src="images/kathryn-thompson-wo.webp" alt="kathryn thompson headshot" id="headshot" width="100" height="100">
+        <h1 id="name-heading">Kathryn Thompson</h1>
+    </header>
 
-<div id="formmsg"></div>
-<h1>Form Build</h1>
+    <nav>
+      <a id="menu" href="#"></a>
+      <ul class="navigation">
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="https://katyounge.github.io/wdd230/lesson03/chamber-site-plan.html" title="Site Plan" class="active">Site Plan</a></li>
+        <li><a href="https://katyounge.github.io/wdd230/chamber/index.html" title="Chamber">Chamber</a></li>
+        <li><a href="https://katyounge.github.io/wdd230/form.html" title="Form">Form</a></li>
+        <li><a href="https://www.byui.edu/" onclick="window.open(this.href, 'new', 'popup'); return false;" title="BYU-Idaho">BYU-Idaho</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27" target="_blank" rel="noreferrer noopener" title="Scripture">Scripture</a></li>
+      </ul>
+    </nav>
+
+
 
 <main>
+
+    <div id="formmsg"></div>
+    <h2>Form Build</h2>
     <form method="get" action="record.html">
         <fieldset>
             <legend>User Information</legend>
@@ -29,7 +50,11 @@
     </form>
 </main>
 
-<footer>&copy;Kathryn Thompson | BYU-Idaho | WDD 230 - Fall 2023</footer>
+<footer>
+    <p>&copy;<span id="year"></span> | Kathryn Thompson | Washington, USA</p>
+    <p id="lastModified"></p>    
+</footer>
+<script src="scripts/getdates.js"></script>
 <script src="scripts/form.js"></script>
 </body>
 </html>

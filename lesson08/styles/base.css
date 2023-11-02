@@ -77,7 +77,7 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 1rem;
+    padding: 1rem;
     color: #9c2c13;
     font-size: .8rem;
 }
