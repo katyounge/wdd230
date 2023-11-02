@@ -313,7 +313,7 @@ figcaption {
 }
 
 .visit-message {
-    color: var(--header-color);
+    color: var(--text-color);
     font-size: 1em;
     font-weight:bold;
     text-align: center;

@@ -15,7 +15,7 @@ function checkSame() {
         msg.style.visibility = 'show';
         pass2.style.backgroundColor = '#fff0f3';
         pass2.value = '';
-        pass2.focus();
+        pass2.focus() || pass1.focus();
 
     }
 }

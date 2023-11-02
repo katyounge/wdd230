@@ -1,11 +1,78 @@
+:root {
+    --body-font-family: 'Nunito Sans', sans-serif;
+    --header-font-family: 'Playfair Display', serif;
+    --header-color: #13678A;
+    --highlight-color: #9AEBA3;
+    --text-color: #414042;
+    --highlight-text-color: #ffffff;
+    --max-width: 400px;
+}
+
+
 form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px var(--text-color);
     border-radius: 4px;
     padding: .75rem;
     color: #555;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
+    margin: 0rem .4rem;
+    
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--highlight-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: var(--max-width);
+}
+
+form legend {
+    color: var(--text-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--header-color);
+
+}
+
+form label.sbs {
+    display: block;
+    padding-top: 3rem;
+    color: var(--header-color);
+}
+
+
+#rangevalue {
+   padding-left: 1rem;
+   font-size: 2rem;
+}
+
+form input.submitButton {
+    border: none;
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    border-radius: .3rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem .4rem;
+    width: 150px;
+}
+
+
+form label.top input:focus {
+    outline-color: var(--highlight-color);
+}
+
+
+footer {
+    padding-top: 3rem;
 }
