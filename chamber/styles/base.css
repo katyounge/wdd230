@@ -392,6 +392,10 @@ form label.top input:focus {
     outline-color: var(--highlight-color);
 }
 
+form label.top textarea:focus {
+    outline-color: var(--highlight-color);
+}
+
 
 #membership {
     padding:  0.5rem 0 -1rem 0;
