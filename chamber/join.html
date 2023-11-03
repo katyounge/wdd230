@@ -57,7 +57,7 @@
                 <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
                 <label class="top">Position <input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}"></label>
                 <label class="top">Email* <input type="email" name="email" id="email" placeholder="someone@byui.edu" required></label>
-                <label class="top">Mobile Phone Number* <input type="telephone" name="mobile" id="mobile" required></label>
+                <label class="top">Mobile Phone Number* <input type="tel" name="mobile" id="mobile" required></label>
                 <label class="top">Business/Organization Name* <input type="text" name="orgName" id="orgName" required></label>
             
 
@@ -67,15 +67,13 @@
                     <label class="sbs"><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
                     <label class="sbs"><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
                     <label class="sbs"><input type="radio" name="level" value="NP Membership"> NP Membership (for non-profit organizations)</label>
-                    <label class="top">Business/Organization Description <input type="text" name="organizationDescription" id="orgDescription"></label>
+                    <label class="top">Business/Organization Description <input type="textarea" name="organizationDescription" id="orgDescription"></label>
 
                     <div class="hidden"><label ><input type="hidden" name="timestamp" value="Timestamp" id="inputTimestamp">TimeStamp <span id="timestamp"></span></label></div>
 
 
                 </fieldset>
 
-
-            </fieldset>
 
             <button type="submit" class="submitButton" id="joinButton">Join Us</button>
         </form>
