@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <title>Duvall Chamber of Commerce</title>
+    <meta name="description" content="Duvall Chamber of Commerce - Class Assignment Fake Website">
+    <meta name="author" content="Kathryn Thompson">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Duvall Chamber of Commerce - Class Assignment Fake Website">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Connecting Business Leaders in the Snoqualmie Valley">
+    <meta property="og:image" content="https://katyounge.github.io/wdd230/images/duvall-wa-sm.jpg">
+    <meta property="og:url" content="https://katyounge.github.io/wdd230/">
+  </head>
+
+  <body>
+    <header id="header">
+        <picture>
+            <source srcset="images/bridge-banner-small.webp" media="(max-width: 600px)">
+            <source srcset="images/bridge-banner-med.webp" media="(max-width: 920px)">
+            <img src="images/bridge-banner-large.webp" alt="cedar city temple" width="1200" height="362">
+        </picture>
+        <h1 id="name-heading">Duvall Chamber of Commerce</h1>      
+    </header>
+
+    <nav>
+    <a id="menu" href="#"></a>
+    <ul class="navigation">
+        <li><a href="https://katyounge.github.io/wdd230/chamber/index.html" title="Home">Home</a></li>
+        <li><a href="https://katyounge.github.io/wdd230/chamber/discover.html" title="Discover">Discover</a></li>
+        <li><a href="" title="Business Directory">Directory</a></li>
+        <li><a href="" title="Join">Join</a></li>
+        <li>
+            <label id="switch">
+                <input type="checkbox" id="engaged">
+                <span class="slider round"></span>
+            </label>
+            <span>dark mode</span>
+        </li>
+    </ul>
+    </nav>
+
+    <main>
+
+        <div id="formmsg"></div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Join the Chamber</legend>
+                <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label class="top">Position <input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}"></label>
+                <label class="top">Email* <input type="email" name="email" id="email" placeholder="someone@byui.edu" required></label>
+                <label class="top">Mobile Phone Number* <input type="telephone" name="mobile" id="mobile" required></label>
+                <label class="top">Business/Organization Name* <input type="text" name="orgName" id="orgName" required></label>
+            
+
+                <div id="membership">Membership Level</div>
+                    
+                    <label class="sbs"><input type="radio" name="level" value="Bronze Membership"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="Silver Membership"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="Gold Membership"> Gold Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="NP Membership"> NP Membership (for non-profit organizations)</label>
+                    <label class="top">Business/Organization Description <input type="text" name="organizationDescription" id="orgDescription"></label>
+
+                    <div class="hidden"><label ><input type="hidden" name="timestamp" value="Timestamp" id="inputTimestamp">TimeStamp <span id="timestamp"></span></label></div>
+
+
+                </fieldset>
+
+
+            </fieldset>
+
+            <button type="submit" class="submitButton" id="joinButton">Join Us</button>
+        </form>
+        <div class="membership">
+            <div class="bronze levels">
+        
+            <h3>Bronze Membership - $150/year</h3>
+            <h4>Benefits:</h4>
+                <ul>
+                    <li>Access to Member Database</li>
+                    <li>Monthly Networking Event</li>
+                    <li>Discount on Yearly Training Seminar</li>
+                </ul>
+            </div>
+
+            <div class="silver levels">
+        
+                <h3>Silver Membership - $250/year</h3>
+                <h4>Benefits:</h4>
+                    <ul>
+                        <li>Access to Member Database</li>
+                        <li>Monthly Networking Event</li>
+                        <li>Discount on Yearly Training Seminar</li>
+                        <li>Exclusive Quarterly Executive Lunch</li>
+                        <li>First Chance to Sponsor Community Events</li>
+                    </ul>
+            </div>
+
+            <div class="gold levels">
+        
+                <h3>Gold Membership - $500/year</h3>
+                <h4>Benefits:</h4>
+                    <ul>
+                        <li>Access to Member Database</li>
+                        <li>Monthly Networking Event</li>
+                        <li>Discount on Yearly Training Seminar</li>
+                        <li>Exclusive Quarterly Executive Lunch</li>
+                        <li>First Chance to Sponsor Community Events</li>
+                        <li>One on One Business Coaching with the Execultive Leadership Team</li>
+                        <li>Premium Logo Placement on Chamber Home Page</li>
+                    </ul>
+            </div>
+
+            <div class="nonprofit levels">
+        
+                <h3>Non-Profit Membership - Free</h3>
+                <h4>Benefits:</h4>
+                    <ul>
+                        <li>Access to Member Database</li>
+                        <li>Monthly Networking Event</li>
+                        <li>Discount on Yearly Training Seminar</li>
+                        <li>Exclusive Quarterly Executive Lunch</li>
+                    </ul>
+            </div>
+        
+        
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-whole"><span id="footer-contact">Duvall Chamber Building<br>28473 E Main Street<br>Duvall, WA 98019<br><br>
+            duvallchamber@citymail.org<br>206.111.3324</span>
+
+
+            <span id="footer-info">&copy;<span id="year"></span> | Kathryn Thompson | tho21057@byui.edu<br><br>
+            This page is a class assignment<br>for WDD 230 at BYU-Idaho<br>and not a real site for the Duvall Chamber of Commerce.<br>
+            <span id="lastModified"></span></span>
+        </div>   
+    </footer>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>

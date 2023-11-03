@@ -169,4 +169,13 @@
 
     .images img:hover {box-shadow: 0 0 10px var(--header-color);}
 
+    form {
+        grid-column: 1 / 3;
+    }
+
+    .membership {
+        grid-column: 3 / 4 ;
+        margin: 2rem;
+    }
+
 }
