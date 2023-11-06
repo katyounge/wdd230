@@ -1,0 +1,38 @@
+{
+    "familyName" : "Thompson",
+    "moveDate" : 12052021,
+    "familyNumber" : "5",
+    "bishopricVisit" : true,
+    "members" : [
+        {
+            "name" : "Marjorie",
+            "gender" : "female",
+            "birthdate" : "1978-10-20"
+        },
+
+        {
+            "name" : "Jason",
+            "gender" : "male",
+            "birthdate" : "1978-06-15"
+        },
+
+        {
+            "name" : "Jennifer",
+            "gender" : "female",
+            "birthdate" : "1998-06-09"
+        },
+
+        {
+            "name" : "Jordan",
+            "gender" : "male",
+            "birthdate" : "2000-04-19"
+        },
+
+        {
+            "name" : "Livi",
+            "gender" : "female",
+            "birthdate" : "2005-08-14"
+        }
+
+    ]
+}
