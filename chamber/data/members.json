@@ -1,0 +1,75 @@
+{
+    "companies" : [
+        {
+            "name" : "Cheri's Place",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        },
+
+        {
+            "name" : "Duvall Auto and Bike",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        },
+
+        {
+            "name" : "The Foundry - Family Bar and Grill",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        },
+
+        {
+            "name" : "Bank of America",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        },
+
+        {
+            "name" : "Tiny Donut Shop",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        },
+
+        {
+            "name" : "Sheffield Real Estate",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        },
+
+        {
+            "name" : "Duvall Print",
+            "address" : "01",
+            "phone" : "01",
+            "url" : "01",
+            "image" : "01",
+            "membership" : "01",
+            "contact" : ""
+        }
+
+        
+
+]}
