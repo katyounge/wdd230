@@ -1,0 +1,145 @@
+{
+    "lessons" : [
+        {
+            "lesson" : "01",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230",
+                    "title" : "Your Course Home Page"
+                },
+
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson01/media-query.html",
+                    "title" : "Media Query Example"
+                },
+
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson01/holygrail.html",
+                    "title" : "Holy Grail CSS Layout"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "02",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson02/design.html",
+                    "title" : "Web Design Principles Exercise"
+                },
+
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson02/design-principles.html",
+                    "title" : "Design Principles Document"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "03",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/images/combinators.jpg",
+                    "title" : "Combinators Exercises"
+                },
+
+                {
+                    "url" : "https://codepen.io/katyounge/pen/yLGKqoN",
+                    "title" : "Pseudo Elements Code Pen Activity"
+                },
+
+                {
+                    "url" : "https://codepen.io/katyounge/pen/mdaxjxz",
+                    "title" : "Responsive Menu Code Pen Activity"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "04",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/katyounge/pen/NWeOqjP",
+                    "title" : "Pseudo-Class Fun CodePen Activity"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "05",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson05/bom.html",
+                    "title" : "Book of Mormon Top 10"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "06",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/images/landscape.webp",
+                    "title" : "WebP"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "07",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson03/lazyload.html",
+                    "title" : "Lazy Load Exercise"
+                },
+
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson07/bom.html",
+                    "title" : "localStorage Exercise"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "08",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson08/tablebuild.html",
+                    "title" : "Table Build Exercise"
+                },
+
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson08/index.html",
+                    "title" : "Web Forms Exercise"
+                }
+
+                ]
+        },
+
+        {
+            "lesson" : "09",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson05/new-ward-member.json",
+                    "title" : "JSON File Creation"
+                },
+
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson05/prophets.json",
+                    "title" : "Latter-day Prophets Exercise"
+                }
+
+                ]
+        }
+
+
+        
+
+]}
