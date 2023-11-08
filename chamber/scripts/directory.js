@@ -1,11 +1,11 @@
-const url = 'https://katyounge.github.io/wdd230/chamber/data/member.json';
+const url = 'https://katyounge.github.io/wdd230/chamber/data/members.json';
 
 const cards = document.querySelector('#cards');
 
 async function getMemberData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    // console.table(data.prophets);
+    console.table(data.members);
     displayMemberData(data.members);
 }
 
@@ -13,6 +13,8 @@ getMemberData(url);
 
 const displayMemberData = (members) => {
     members.forEach((member) => {
+
+        console.log(member.name);
         let card = document.createElement('section');
         let busName = document.createElement('h2');
         let membership = document.createElement('h3');
@@ -29,7 +31,7 @@ const displayMemberData = (members) => {
         website.textContent = member.url;
         contact.textContent = `Main Contact: ${member.contact}`;
 
-        image.setAttribute("src", prophet.imageurl);
+        image.setAttribute("src", member.image);
         image.setAttribute("alt", `Business Ad for ${member.name}`);
         image.setAttribute("loading", "lazy");
         image.setAttribute("width", '320');
