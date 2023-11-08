@@ -15,7 +15,7 @@
             "address" : "19274 W. Main Street, Duvall, WA 98019",
             "phone" : "425.111.9034",
             "url" : "https://duvallauto.com",
-            "image" : "..images/cheri-small.webp",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/duvall-auto-small.webp",
             "membership" : "Silver",
             "contact" : "Janet Shipley"
         },
@@ -25,7 +25,7 @@
             "address" : "29483 Main Street, Duvall, WA 98019",
             "phone" : "425.111.3774",
             "url" : "https://foundryduvallgrill.com",
-            "image" : "..images/cheri-small.webp",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/foundry-small.webp",
             "membership" : "Bronze",
             "contact" : "Jim Flipperstein"
         },
@@ -35,7 +35,7 @@
             "address" : "98392 Main Street, Duvall, WA 98019",
             "phone" : "425.111.0283",
             "url" : "https://bankofamerica.com",
-            "image" : "..images/cheri-small.webp1",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/bankofamerica-small.webp1",
             "membership" : "Gold",
             "contact" : "Chandi Mashra"
         },
@@ -45,7 +45,7 @@
             "address" : "56382 Main Street, Duvall, WA 98019",
             "phone" : "425.111.7773",
             "url" : "https://tinydonuts.com",
-            "image" : "..images/cheri-small.webp",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/tiny-donut-small.webp",
             "membership" : "Bronze",
             "contact" : "Jenny Weasly"
         },
@@ -55,7 +55,7 @@
             "address" : "49274 Stella Street, Duvall, WA 98019",
             "phone" : "425.111.2039",
             "url" : "https://sheffieldrealestate",
-            "image" : "..images/cheri-small.webp",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/sheffield-small.webp",
             "membership" : "Bronze",
             "contact" : "Chip Sheffield"
         },
@@ -65,7 +65,7 @@
             "address" : "39274 Kennedy Street, Duvall, WA 98019",
             "phone" : "425.111.3983",
             "url" : "https://duvallprint.com",
-            "image" : "01",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/duvall-print-small.webp",
             "membership" : "Silver",
             "contact" : "Hepper MoonberryTiny"
         }
