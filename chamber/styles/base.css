@@ -421,3 +421,23 @@ form label.top textarea:focus {
 .levels h3 {
     margin-top: .1rem;
 }
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.member-card img {
+    width: 100%;
+    height: auto;
+}
+
+.member-card {
+    box-shadow: 0 0 5px var(--text-color);
+    margin: 1em;
+    padding: 1em;
+}
+
+.display-toggle p {
+    text-align: center;
+}
