@@ -27,13 +27,13 @@ const displayLinks = (weeks) => {
         lessonItem.setAttribute("class", "linkItem");
         lessonItem.innerHTML = `Week ${week.lesson}: ${linkData}`;
 
-        weeks.links.forEach((activity) => {
-            let linkURL = document.createElement('a');
-            linkURL.settAttribute("href", activity.url);
-            linkURL.textContent = `${activity.title} | `;
-            lessonItem.textContent.append(linkURL);
+        // weeks.links.forEach((activity) => {
+        //     let linkURL = document.createElement('a');
+        //     linkURL.settAttribute("href", activity.url);
+        //     linkURL.textContent = `${activity.title} | `;
+        //     lessonItem.textContent.append(linkURL);
             
-        });
+        // });
 
 
         linkList.appendChild(lessonItem);

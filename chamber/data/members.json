@@ -2,72 +2,72 @@
     "companies" : [
         {
             "name" : "Cheri's Place",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
-            "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "address" : "18394 E. Main Street, Duvall, WA 98019",
+            "phone" : "425.111.5493",
+            "url" : "https://cherisplaceduvall.com",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/cheri-small.webp",
+            "membership" : "Gold",
+            "contact" : "Cheri Swan"
         },
 
         {
             "name" : "Duvall Auto and Bike",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
-            "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "address" : "19274 W. Main Street, Duvall, WA 98019",
+            "phone" : "425.111.9034",
+            "url" : "https://duvallauto.com",
+            "image" : "..images/cheri-small.webp",
+            "membership" : "Silver",
+            "contact" : "Janet Shipley"
         },
 
         {
             "name" : "The Foundry - Family Bar and Grill",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
-            "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "address" : "29483 Main Street, Duvall, WA 98019",
+            "phone" : "425.111.3774",
+            "url" : "https://foundryduvallgrill.com",
+            "image" : "..images/cheri-small.webp",
+            "membership" : "Bronze",
+            "contact" : "Jim Flipperstein"
         },
 
         {
             "name" : "Bank of America",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
-            "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "address" : "98392 Main Street, Duvall, WA 98019",
+            "phone" : "425.111.0283",
+            "url" : "https://bankofamerica.com",
+            "image" : "..images/cheri-small.webp1",
+            "membership" : "Gold",
+            "contact" : "Chandi Mashra"
         },
 
         {
             "name" : "Tiny Donut Shop",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
-            "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "address" : "56382 Main Street, Duvall, WA 98019",
+            "phone" : "425.111.7773",
+            "url" : "https://tinydonuts.com",
+            "image" : "..images/cheri-small.webp",
+            "membership" : "Bronze",
+            "contact" : "Jenny Weasly"
         },
 
         {
             "name" : "Sheffield Real Estate",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
-            "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "address" : "49274 Stella Street, Duvall, WA 98019",
+            "phone" : "425.111.2039",
+            "url" : "https://sheffieldrealestate",
+            "image" : "..images/cheri-small.webp",
+            "membership" : "Bronze",
+            "contact" : "Chip Sheffield"
         },
 
         {
             "name" : "Duvall Print",
-            "address" : "01",
-            "phone" : "01",
-            "url" : "01",
+            "address" : "39274 Kennedy Street, Duvall, WA 98019",
+            "phone" : "425.111.3983",
+            "url" : "https://duvallprint.com",
             "image" : "01",
-            "membership" : "01",
-            "contact" : ""
+            "membership" : "Silver",
+            "contact" : "Hepper MoonberryTiny"
         }
 
         
