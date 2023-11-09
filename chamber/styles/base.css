@@ -438,6 +438,16 @@ form label.top textarea:focus {
     padding: 1em;
 }
 
-.display-toggle p {
+.display-toggle {
     text-align: center;
+    margin: 1rem auto;
+	padding: 0.5rem;
+}
+
+.display-toggle button {
+    background-color: var(--highlight-color);
+    padding: 1rem;
+    border: none;
+    border-radius: .3rem;
+    margin: 0 1.5rem;
 }
