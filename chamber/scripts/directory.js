@@ -1,6 +1,6 @@
 const url = 'https://katyounge.github.io/wdd230/chamber/data/members.json';
 
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('.cards');
 
 async function getMemberData(url) {
     const response = await fetch(url);
@@ -45,3 +45,15 @@ const displayMemberData = (members) => {
 
     });
 }
+
+const gridButton = document.querySelector('#grid-view');
+const listButton = document.querySelector('#list-view');
+const cardSection = document.querySelector('.cards');
+
+listButton.addEventListener('click', () => {
+    cardSection.setAttribute("id","listview");
+});
+
+gridButton.addEventListener('click', () => {
+    cardSection.removeAttribute("id");
+});
