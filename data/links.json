@@ -127,15 +127,25 @@
             "lesson" : "09",
             "links" : [
                 {
-                    "url" : "https://katyounge.github.io/wdd230/lesson05/new-ward-member.json",
+                    "url" : "https://katyounge.github.io/wdd230/lesson05/new-ward-members.json",
                     "title" : "JSON File Creation"
                 },
 
                 {
-                    "url" : "https://katyounge.github.io/wdd230/lesson05/prophets.json",
+                    "url" : "https://katyounge.github.io/wdd230/lesson05/prophets.html",
                     "title" : "Latter-day Prophets Exercise"
                 }
 
+                ]
+        },
+
+        {
+            "lesson" : "10",
+            "links" : [
+                {
+                    "url" : "https://katyounge.github.io/wdd230/lesson10/weather.html",
+                    "title" : "OpenWeatherMap.org API Test"
+                }
                 ]
         }
 
