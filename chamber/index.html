@@ -160,9 +160,21 @@
             </div>
 
         </section>
+
         <section class="weather">
-            <h3>Current Weather</h3>              
-            <P><span>Temperature: </span><span class="temp">50</span><span> °F</span><span> - Wind Speed: </span><span class="speed">30</span><span>mph</span><span> - Wind Chill: </span><span class="windchill"></span></P>
+            <div id = 'current-weather'>
+                <h3>Current Weather</h3>              
+                <!-- <P><span>Temperature: </span><span class="temp">50</span><span> °F</span><span> - Wind Speed: </span><span class="speed">30</span><span>mph</span><span> - Wind Chill: </span><span class="windchill"></span></P> -->
+                <p><img src="" alt="" id="weather-icon"></p>
+                <p><span id="current-temp"></span> - <span id="weather-description"></span></p>
+            </div>
+
+            <div id="weather-forecast">
+                <h3>3-Day Forecast</h3>          
+                <p>24-hour - <span id='oneday'> </span></p>
+                <p>48-hour - <span id='twoday'> </span></p>
+                <p>72-hour - <span id='threeday'> </span></p>
+            </div>
         </section>
         
     </main>
@@ -180,6 +192,7 @@
     <script src="scripts/navigation.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/slider.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
