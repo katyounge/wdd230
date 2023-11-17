@@ -423,10 +423,7 @@ form label.top textarea:focus {
     margin-top: .1rem;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
+
 
 .member-card img {
     width: 100%;
@@ -443,6 +440,7 @@ form label.top textarea:focus {
     text-align: center;
     margin: 1rem auto;
 	padding: 0.5rem;
+    grid-column: 1 / 4;
 }
 
 .display-toggle button {
@@ -465,4 +463,8 @@ form label.top textarea:focus {
 #listview .member-card {
     border: none;
     box-shadow: none;
+}
+
+.banner {
+    grid-column: 1 / 4;
 }

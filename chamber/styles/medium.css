@@ -189,4 +189,11 @@
         margin: 2rem;
     }
 
+    .cards {
+        display: grid;
+        grid-column: 1 / 4;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+
 }
