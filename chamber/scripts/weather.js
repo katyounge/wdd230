@@ -12,7 +12,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -31,7 +30,6 @@ async function apiFetch2() {
         const response = await fetch(urlForecast);
         if (response.ok) {
             const data2 = await response.json();
-            console.log(data2);
             displayResults2(data2);
             
         } else {
@@ -62,7 +60,6 @@ function displayResults(data) {
 
 function displayResults2(data2) {
     const oneDayData = document.querySelector('#oneday');
-    console.log(oneDayData);
     const twoDayData = document.getElementById('twoday');
     const threeDayData = document.getElementById('threeday');
     oneDayData.innerHTML = `${data2.list[8].main.feels_like} &deg;F average`;

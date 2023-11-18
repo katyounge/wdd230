@@ -37,9 +37,7 @@ if (lastVisitDate == null) {
 } else {
     let dayMs = 86400000
     let dif = currentVisitDate - lastVisitDate;
-    console.log(dif);
     let days = dif / dayMs;
-    console.log(days);
     if (dif < dayMs) {
         visitMessage.textContent = "Back so soon! Awesome!";
     } else {
@@ -48,18 +46,5 @@ if (lastVisitDate == null) {
 };
 
 
-// const visitCount = document.querySelector('.visit-count');
-// let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
-
-// if (numVisits == 0) {
-//     visitCount.textContent = `This is your first visit. 🥳 Welcome!`;
-	
-// } else {
-// 	visitCount.textContent = numVisits;
-// }
-
-// numVisits++;
-
 setLastVisitDate();
 
-// localStorage.setItem('numVisits-ls', numVisits);

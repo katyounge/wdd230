@@ -138,7 +138,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
-    padding: 1rem;
+    padding: 0rem 0rem 8rem 0em;
     text-align: center;
     width: clamp(300px, 100%, var(--max-width));
     margin: auto;
@@ -337,12 +337,16 @@ form label.top input, form label.top select {
     border: solid 1px var(--text-color);
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: black;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #f1f2f2;
     margin: 0rem .4rem;
     
+}
+
+::placeholder {
+    color: #58595b;
 }
 
 form fieldset {
@@ -488,4 +492,12 @@ form label.top textarea:focus {
 
 .banner-exit a {
     text-decoration: none;
+}
+
+.thanks {
+    text-align: center;
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
 }

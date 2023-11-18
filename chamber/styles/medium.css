@@ -132,7 +132,7 @@
 
     footer {
         text-align: center;
-        padding: 2rem 2rem 8rem 2rem;
+        padding: 0rem 0rem 9rem 0em;
     }
 
     .carousel{
@@ -168,14 +168,16 @@
     }
     
     #footer-contact {
-    float: left;
-    text-align: left;
+        float: left;
+        text-align: left;
+        padding: 1rem;
 
     }
 
     #footer-info {
         float: right;
         text-align: right;
+        padding: 1rem;
     }
 
     .images img:hover {box-shadow: 0 0 10px var(--header-color);}
@@ -196,7 +198,11 @@
     }
 
     .partners {
-        grid-column: 1 / 4;;
+        grid-column: 1 / 4;
+    }
+
+    #thanks {
+        grid-column: 1 / 4;
     }
 
 
