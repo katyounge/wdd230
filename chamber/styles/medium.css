@@ -195,5 +195,9 @@
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 
+    .partners {
+        grid-column: 1 / 4;;
+    }
+
 
 }

@@ -467,4 +467,25 @@ form label.top textarea:focus {
 
 .banner {
     grid-column: 1 / 4;
+    text-align: center;
+    box-shadow: 0 0 5px var(--text-color);
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.banner-exit {
+    position: absolute;
+    top: 8%;
+    left: 92%;
+    border: solid 1px var(--header-color);
+    padding: 4px;
+}
+
+#hide-banner {
+    display: none;
+}
+
+.banner-exit a {
+    text-decoration: none;
 }
