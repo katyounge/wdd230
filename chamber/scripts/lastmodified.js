@@ -1,1 +1,1 @@
-document.getElementById("lastModified").innerHTML = `Last Modification: ${new Date(document.lastModified)}`;
+document.getElementById("lastModified").innerHTML = `Last Mod: ${new Date(document.lastModified)}`;
