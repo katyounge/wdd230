@@ -198,6 +198,13 @@
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 
+    .gold-members {
+        display: grid;
+        grid-column: 1 / 4;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+
     .partners {
         grid-column: 1 / 4;
     }
