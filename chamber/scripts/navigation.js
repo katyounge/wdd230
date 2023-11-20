@@ -5,3 +5,11 @@ hamButton.addEventListener('click', () => {
 	mainnav.classList.toggle('show');
 	hamButton.classList.toggle('show');
 });
+
+function addAttr() {
+     
+    hamButton.setAttribute("alt", "hamburger-menu-button");
+
+};
+
+addAttr();
