@@ -492,6 +492,10 @@ form label.top textarea:focus {
     position: relative;
 }
 
+.banner-text {
+    font-size: 1em;
+}
+
 .banner-exit {
     position: absolute;
     top: 8%;
