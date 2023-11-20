@@ -81,9 +81,14 @@ main {
     margin: auto;
 }
 
+
 .story img {
     max-width: 100%;
     height: auto;
+}
+
+.story {
+    margin-bottom: 3rem;
 }
 
  #call-to-action {
@@ -190,6 +195,15 @@ footer {
 #events {
     background-color: var(--highlight-color);
     padding: 1em;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+}
+
+.event {
+    margin: 0 0 3rem 0;
 }
 
 /* The switch - the box around the slider */

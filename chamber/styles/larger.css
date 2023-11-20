@@ -12,30 +12,6 @@
 
 
 
-    /* #header h1 {
-        position: absolute;
-        top: 210px;
-        left: 100px;
-        color: var(--highlight-text-color)
-        
-    } */
-
-    /* main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .news {
-        grid-column: 1 / 4;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-span: all;
-        grid-gap: 1rem;
-    }
-
-    .story:first-child {
-        grid-column: 1 / 4;
-    } */
-
     nav ul {
         display: flex;
     }

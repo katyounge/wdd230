@@ -66,11 +66,12 @@
         grid-column: 1 / 4;
     }
 
-    #news-photo:first-child, #news-text:first-child {
-        display: inline-block;
-        margin: auto;
-        vertical-align: middle;
+    .story:first-child .news-text {
+        padding: 1em;
+
      }
+
+
 
     .story {
         margin: 1rem 0rem 2rem 0rem;
@@ -204,6 +205,8 @@
     #thanks {
         grid-column: 1 / 4;
     }
+
+  
 
 
 }
