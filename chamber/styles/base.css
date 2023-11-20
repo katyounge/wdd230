@@ -143,11 +143,11 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
-    padding: 0rem 0rem 8rem 0em;
+    padding: 0rem 0rem 10rem 0em;
     text-align: center;
     width: clamp(300px, 100%, var(--max-width));
     margin: auto;
-    padding: 2rem;
+    
 }
 
 #action-button {
