@@ -1,0 +1,38 @@
+{
+    "members" : [
+        {
+            "name" : "Cheri's Place",
+            "address" : "18394 E. Main Street, Duvall, WA 98019",
+            "phone" : "425.111.5493",
+            "url" : "https://cherisplaceduvall.com",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/cheri-small.webp",
+            "membership" : "Gold",
+            "contact" : "Cheri Swan"
+        },
+
+       
+
+        {
+            "name" : "Bank of America",
+            "address" : "98392 Main Street, Duvall, WA 98019",
+            "phone" : "425.111.0283",
+            "url" : "https://bankofamerica.com",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/bankofamerica-small.webp",
+            "membership" : "Gold",
+            "contact" : "Chandi Mashra"
+        },
+
+    
+
+        {
+            "name" : "Sheffield Real Estate",
+            "address" : "49274 Stella Street, Duvall, WA 98019",
+            "phone" : "425.111.2039",
+            "url" : "https://sheffieldrealestate",
+            "image" : "https://katyounge.github.io/wdd230/chamber/images/sheffield-small.webp",
+            "membership" : "Gold",
+            "contact" : "Chip Sheffield"
+        }
+        
+
+]}
