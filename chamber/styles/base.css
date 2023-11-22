@@ -93,8 +93,16 @@ header img {
     color: var(--highlight-text-color);
 }
 
+.dark-mode #join-button a:link, .dark-mode #join-button a:visited, .dark-mode #join-button a:hover, .dark-mode #join-button a:active {
+    color: var(--highlight-text-color);
+}
+
 .dark-mode #action {
     color: var(--text-color);
+}
+
+.dark-mode #join-button {
+    background-color: var(--text-color);
 }
 
 
@@ -121,7 +129,7 @@ main {
  #call-to-action {
     text-align: center;
     background-color: var(--highlight-color);
-    padding: 1em;
+    padding: 1em 1em 2em 1em;
     max-width: var(--max-width); 
 }
 
@@ -547,6 +555,12 @@ nav a:hover, nav a.active {
     text-decoration: underline;
     font-weight: bold;
     color: lightgreen;
+}
+
+#join-button {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: var(--highlight-text-color);
 }
 
 #action {
