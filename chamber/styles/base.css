@@ -68,6 +68,7 @@ header img {
 
 #darkmode-switch {
     text-align: center;
+    grid-row-start: 1;
     padding: 1rem;
 }
 
@@ -84,7 +85,7 @@ header img {
     color: var(--highlight-text-color);
 }
 
-.dark-mode label.top, .dark-mode label.sbs, .dark-mode legend, .dark-mode div#membership, .dark-mode .hidden {
+.dark-mode label.top, .dark-mode label.sbs, .dark-mode legend, .dark-mode div#membership, .dark-mode .hidden, .dark-mode figcaption {
     color: var(--highlight-text-color);
 }
 
@@ -544,6 +545,8 @@ form label.top textarea:focus {
 
 nav a:hover, nav a.active {
     text-decoration: underline;
+    font-weight: bold;
+    color: lightgreen;
 }
 
 #action {
