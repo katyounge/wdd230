@@ -190,12 +190,9 @@ footer {
 
 #menu {
 	font-size: 1.5rem;
-	padding: 3px 7px 6px;
+	padding: 6px 7px 6px;
 	background-color: var(--header-color);
 	color: var(--highlight-text-color);
- 	position: absolute;
-	right: 46%;
-	top: 40%;
     text-decoration: none;
 }
 
