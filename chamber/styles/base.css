@@ -66,10 +66,36 @@ header img {
     background-color: black;
 }
 
-.dark-mode-footer {
-    background-color: var(--text-color);
+#darkmode-switch {
+    text-align: center;
+    padding: 1rem;
+}
+
+.dark-mode footer {
+    background-color: var(--header-color);
     color: var(--highlight-text-color);
 }
+
+.dark-mode a:link, .dark-mode a:visited, .dark-mode a:hover, .dark-mode a:active {
+    color: var(--highlight-text-color);
+} 
+
+.dark-mode  {
+    color: var(--highlight-text-color);
+}
+
+.dark-mode label.top, .dark-mode label.sbs, .dark-mode legend, .dark-mode div#membership, .dark-mode .hidden {
+    color: var(--highlight-text-color);
+}
+
+.dark-mode .cards .dark-mode .cards a:link, .dark-mode .cards a:visited, .dark-mode .cards a:hover, .dark-mode .cards a:active  {
+    color: var(--highlight-text-color);
+}
+
+.dark-mode #action {
+    color: var(--text-color);
+}
+
 
 main {
     padding: 1rem;
@@ -95,8 +121,7 @@ main {
     text-align: center;
     background-color: var(--highlight-color);
     padding: 1em;
-    max-width: var(--max-width);
-    text-align: center;    
+    max-width: var(--max-width); 
 }
 
 
@@ -143,7 +168,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
-    padding: 0rem 0rem 10rem 0em;
+    padding: 2rem 0rem 2rem 0em;
     text-align: center;
     width: clamp(300px, 100%, var(--max-width));
     margin: auto;
@@ -169,8 +194,9 @@ footer {
 	background-color: var(--header-color);
 	color: var(--highlight-text-color);
  	position: absolute;
-	right: 45%;
-	top: 5%;
+	right: 46%;
+	top: 40%;
+    text-decoration: none;
 }
 
 .navigation li {
@@ -204,7 +230,7 @@ footer {
 }
 
 .event {
-    margin: 0 0 3rem 0;
+    margin: 0 0 2rem 0;
 }
 
 /* The switch - the box around the slider */

@@ -39,6 +39,10 @@
 		flex: 1 1 100%;
 	}
 
+    .events {
+        grid-template-rows: 1fr; 
+    }
+
     
 
 }

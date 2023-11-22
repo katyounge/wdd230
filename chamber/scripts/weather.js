@@ -46,7 +46,7 @@ apiFetch2();
 
 function displayResults(data) {
      
-    currentTemp.innerHTML = `${data.main.temp.toFixed(2)}&deg;F`;
+    currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     const capDesc = desc.charAt(0).toUpperCase() + desc.slice(1);
@@ -62,7 +62,7 @@ function displayResults2(data2) {
     const oneDayData = document.querySelector('#oneday');
     const twoDayData = document.getElementById('twoday');
     const threeDayData = document.getElementById('threeday');
-    oneDayData.innerHTML = `${data2.list[8].main.feels_like} &deg;F average`;
-    twoDayData.innerHTML = `${data2.list[16].main.feels_like} &deg;F average`;
-    threeDayData.innerHTML = `${data2.list[24].main.feels_like} &deg;F average`;
+    oneDayData.innerHTML = `${data2.list[8].main.feels_like.toFixed(0)} &deg;F average`;
+    twoDayData.innerHTML = `${data2.list[16].main.feels_like.toFixed(0)} &deg;F average`;
+    threeDayData.innerHTML = `${data2.list[24].main.feels_like.toFixed(0)} &deg;F average`;
 }
