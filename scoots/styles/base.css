@@ -1,0 +1,199 @@
+:root {
+    --body-font-family: 'Roboto', sans-serif;
+    --header-font-family: 'Permanent Marker', cursive;;
+    --header-color: #0a69b6;
+    --highlight-color: #03b2b3;
+    --text-color: #414042;
+    --gray-highlight: #999999;
+    --highlight-text-color: #ffffff;
+    --max-width: 400px;
+}
+
+body {
+    font-family: var(--body-font-family);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family);   
+}
+
+header {
+    max-width: var(--max-width);
+    margin: auto auto 30px auto;  
+}
+
+header img {
+    max-width: var(--max-width);
+    min-width: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    max-width: var(--max-width);
+    text-align: center;
+    background: var(--header-color);
+    margin: auto;
+    color: var(--highlight-text-color);
+    background-color: var(--gray-highlight);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+	flex-direction: column;
+  }
+
+nav a {
+    display: block;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+    text-decoration: none;
+    color: var(--highlight-text-color);
+}
+
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: var(--highlight-text-color);
+}
+
+#menu {
+	font-size: 1.5rem;
+	padding: 6px 7px 6px;
+	color: var(--highlight-text-color);
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23px;
+}
+
+.navigation li {
+	display: none;
+}
+
+#menu::before {
+	content: "☰";
+    text-align: center;
+}
+
+#menu.show::before {
+	content: "❎";
+}
+
+.show li {
+	display: block;
+}
+.show li a {
+	display: block;
+}
+
+main {
+    padding: 1rem;
+    width: clamp(300px, 100%, var(--max-width));
+    margin: auto;
+  }
+
+  .weather {
+    background-color: #414042;
+    color: var(--highlight-text-color);
+    width: clamp(300px, 100%, var(--max-width));
+    margin: auto;
+    padding: 1em 0em;
+    text-align: center;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--text-color);
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #f1f2f2;
+    margin: 0rem .4rem;
+    
+}
+
+::placeholder {
+    color: #58595b;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--highlight-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: var(--max-width);
+}
+
+form legend {
+    color: var(--text-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--header-color);
+
+}
+
+form label.sbs {
+    display: block;
+    padding-top: .5rem;
+    color: var(--text-color);
+}
+
+
+#rangevalue {
+   padding-left: 1rem;
+   font-size: 2rem;
+}
+
+#joinButton {
+    border: none;
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    border-radius: .3rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem .4rem;
+}
+
+
+form label.top input:focus {
+    outline-color: var(--highlight-color);
+}
+
+form label.top textarea:focus {
+    outline-color: var(--highlight-color);
+}
+
+
+
+
+
+footer {
+    color: var(--highlight-text-color);
+    background-color: var(--header-color);
+    padding: 2rem 0rem 2rem 0em;
+    text-align: center;
+    width: clamp(300px, 100%, var(--max-width));
+    margin: auto;
+    
+}

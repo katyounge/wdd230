@@ -1,0 +1,19 @@
+@media (min-width: 920px) {
+
+    :root {
+        --body-font-family: 'Roboto', sans-serif;
+        --header-font-family: 'Permanent Marker', cursive;;
+        --header-color: #0a69b6;
+        --highlight-color: #03b2b3;
+        --text-color: #414042;
+        --gray-highlight: #999999;
+        --highlight-text-color: #ffffff;
+        --max-width: 920px;
+    }
+
+
+    #hamburger {
+    display: none;
+}
+
+}
