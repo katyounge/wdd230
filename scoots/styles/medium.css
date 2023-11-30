@@ -50,6 +50,7 @@ main {
 #call-to-action {
     grid-column: 2 / 4;
     width: auto;
+    height: auto;
 }
 
 
@@ -78,6 +79,21 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+
+.weather {
+    grid-column: 1 / 2;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 1.5em 0;
+}
+
+.final-image {
+    grid-column: 1 / 4;
+    width: 100%;
+    height: auto;
+}
+
 
 
 }

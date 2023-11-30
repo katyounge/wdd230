@@ -226,6 +226,14 @@ form label.top textarea:focus {
     text-align: center;
 }
 
+.final-image img {
+    max-width: var(--max-width);
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
