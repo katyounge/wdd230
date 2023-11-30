@@ -144,7 +144,7 @@
 
         {
             "type" : "Jeeps",
-            "vehicrentalsles" : [
+            "vehicles" : [
                 {
                     "name" : "Jeep Wrangler - 4 door manual with A/C",
                     "capacity" : "5 person",

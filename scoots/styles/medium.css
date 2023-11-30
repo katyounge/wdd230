@@ -67,9 +67,16 @@ main {
     grid-column: 1 / 4;
 }
 
-
 .rentals {
+    display: grid;
     grid-column: 1 / 4;
+}
+
+
+.rental-cards {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 
