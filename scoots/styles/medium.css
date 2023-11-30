@@ -2,7 +2,7 @@
 
     :root {
         --body-font-family: 'Roboto', sans-serif;
-        --header-font-family: 'Permanent Marker', cursive;;
+        --header-font-family: 'Merriweather', serif;
         --header-color: #0a69b6;
         --highlight-color: #03b2b3;
         --text-color: #414042;
@@ -12,8 +12,57 @@
     }
 
 
-    #hamburger {
+    #menu {
     display: none;
 }
+
+
+header img {
+    max-width: var(--max-width);
+    min-width: 300px;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+nav {
+    grid-column: 1 / 3;
+    padding: .25em 0 .25em 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 100%;  
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+
+#call-to-action {
+    grid-column: 2 / 4;
+    width: auto;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+
 
 }

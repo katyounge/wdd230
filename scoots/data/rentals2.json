@@ -1,0 +1,216 @@
+{
+    "rentals" : [
+        {
+            "type" : "Honda Motor Scooters",
+            "vehichles" : [
+                {
+                    "name" : "Honda Metropolitan (49cc)",
+                    "capacity" : "1 person",
+                    "image" : "https://katyounge.github.io/wdd230/scoots/images",
+                    "prices" : [
+                        {
+                            "reservation-type" : [
+                                {
+                                    "reservation" : [
+                                        {
+                                            "half-day" : "$20",
+                                            "full-day" : "$30"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "walk-in" : [
+                                        {
+                                            "half-day" : "$25",
+                                            "full-day" : "$35"
+                                        }
+                                    ]
+                                }
+                            ]
+                            
+
+                    }
+                    ]
+                },
+
+                {
+                    "name" : "Honda Dio (110cc)",
+                    "capacity" : "2 person",
+                    "image" : "https://katyounge.github.io/wdd230/scoots/images",
+                    "prices" : [
+                        {
+                            "reservation-type" : [
+                                {
+                                    "reservation" : [
+                                        {
+                                            "half-day" : "$30",
+                                            "full-day" : "$40"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "walk-in" : [
+                                        {
+                                            "half-day" : "$35",
+                                            "full-day" : "$45"
+                                        }
+                                    ]
+                                }
+                            ]
+                            
+
+                    }
+                    ]
+                },
+
+                {
+                    "name" : "Honda PCX150 (149cc)",
+                    "capacity" : "2 person",
+                    "image" : "https://katyounge.github.io/wdd230/scoots/images",
+                    "prices" : [
+                        {
+                            "reservation-type" : [
+                                {
+                                    "reservation" : [
+                                        {
+                                            "half-day" : "$40",
+                                            "full-day" : "$50"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "walk-in" : [
+                                        {
+                                            "half-day" : "$45",
+                                            "full-day" : "$55"
+                                        }
+                                    ]
+                                }
+                            ]
+                            
+
+                    }
+                    ]
+                }
+
+                
+
+                ]
+        },
+
+        {
+            "type" : "Side-by-Side ATVs",
+            "vehichles" : [
+                {
+                    "name" : "Honda Pioneer 1000",
+                    "capacity" : "4 person",
+                    "image" : "https://katyounge.github.io/wdd230/scoots/images",
+                    "prices" : [
+                        {
+                            "reservation-type" : [
+                                {
+                                    "reservation" : [
+                                        {
+                                            "half-day" : "$50",
+                                            "full-day" : "$70"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "walk-in" : [
+                                        {
+                                            "half-day" : "$60",
+                                            "full-day" : "$80"
+                                        }
+                                    ]
+                                }
+                            ]
+                            
+
+                    }
+                    ]
+                }
+
+                
+
+                
+
+                ]
+        },
+
+        {
+            "type" : "Jeeps",
+            "vehichles" : [
+                {
+                    "name" : "Jeep Wrangler - 4 door manual with A/C",
+                    "capacity" : "5 person",
+                    "image" : "https://katyounge.github.io/wdd230/scoots/images",
+                    "prices" : [
+                        {
+                            "reservation-type" : [
+                                {
+                                    "reservation" : [
+                                        {
+                                            "half-day" : "$70",
+                                            "full-day" : "$100"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "walk-in" : [
+                                        {
+                                            "half-day" : "$85",
+                                            "full-day" : "$125"
+                                        }
+                                    ]
+                                }
+                            ]
+                            
+
+                    }
+                    ]
+                },
+
+                {
+                    "name" : "Jeep Wrangler - 2 door - open air - manual - 4 person",
+                    "capacity" : "4 person",
+                    "image" : "https://katyounge.github.io/wdd230/scoots/images",
+                    "prices" : [
+                        {
+                            "reservation-type" : [
+                                {
+                                    "reservation" : [
+                                        {
+                                            "half-day" : "$60",
+                                            "full-day" : "$85"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "walk-in" : [
+                                        {
+                                            "half-day" : "$70",
+                                            "full-day" : "$90"
+                                        }
+                                    ]
+                                }
+                            ]
+                            
+
+                    }
+                    ]
+                }             
+                ]
+        }
+    ]
+}
+
+
+
+        

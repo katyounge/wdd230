@@ -1,6 +1,6 @@
 :root {
     --body-font-family: 'Roboto', sans-serif;
-    --header-font-family: 'Permanent Marker', cursive;;
+    --header-font-family: 'Merriweather', serif;
     --header-color: #0a69b6;
     --highlight-color: #03b2b3;
     --text-color: #414042;
@@ -36,7 +36,7 @@ nav {
     background: var(--header-color);
     margin: auto;
     color: var(--highlight-text-color);
-    background-color: var(--gray-highlight);
+    background-color: var(--highlight-color);
 }
 
 nav ul {
@@ -185,7 +185,28 @@ form label.top textarea:focus {
 }
 
 
+#name-heading {
+    text-align: center;
+}
 
+#call-to-action {
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 1em 1em 2em 1em;
+    max-width: var(--max-width); 
+    color: white;
+}
+
+#call-to-action p {
+    padding: 2em;
+}
+
+#reserve-button {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: var(--highlight-text-color);
+    border-radius: 3px;
+}
 
 
 footer {

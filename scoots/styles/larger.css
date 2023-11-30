@@ -1,7 +1,7 @@
 @media (min-width: 1200px) {
     :root {
         --body-font-family: 'Roboto', sans-serif;
-        --header-font-family: 'Permanent Marker', cursive;;
+        --header-font-family: 'Merriweather', serif;
         --header-color: #0a69b6;
         --highlight-color: #03b2b3;
         --text-color: #414042;
