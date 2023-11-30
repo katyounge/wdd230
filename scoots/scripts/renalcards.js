@@ -5,8 +5,7 @@ const rentalcards = document.querySelector('.rental-cards');
 async function getRentalCardData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    // console.table(data.members);
-    displayRentalCardData(data.members);
+    displayRentalCardData(data.rentals);
 }
 
 getRentalCardData(rentalcardurl);
