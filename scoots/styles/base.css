@@ -209,6 +209,23 @@ form label.top textarea:focus {
 }
 
 
+.rental-card img {
+    width: 100%;
+    height: auto;
+    max-width: var(--max-width);
+    min-width: 200px;
+}
+
+.rental-card {
+    box-shadow: 0 0 5px var(--text-color);
+    margin: 1em;
+    padding: 1em;
+}
+
+.rentals-h2 {
+    text-align: center;
+}
+
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
