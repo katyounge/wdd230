@@ -2,7 +2,7 @@
     "rentals" : [
         {
             "type" : "Honda Motor Scooters",
-            "vehichles" : [
+            "vehicles" : [
                 {
                     "name" : "Honda Metropolitan (49cc)",
                     "capacity" : "1 person",
@@ -103,7 +103,7 @@
 
         {
             "type" : "Side-by-Side ATVs",
-            "vehichles" : [
+            "vehicles" : [
                 {
                     "name" : "Honda Pioneer 1000",
                     "capacity" : "4 person",
@@ -144,7 +144,7 @@
 
         {
             "type" : "Jeeps",
-            "vehichles" : [
+            "vehicles" : [
                 {
                     "name" : "Jeep Wrangler - 4 door manual with A/C",
                     "capacity" : "5 person",
