@@ -9,14 +9,14 @@
                     "image" : "https://katyounge.github.io/wdd230/scoots/images/scooter1.webp",
                     "prices" : 
                         {
-                            "reservation-prices" : {
+                            "reservation" : {
                                     "half-day" : "$20",
                                     "full-day" : "$30"
                                         
                                     
                                 },
 
-                            "walk-in-prices" : {
+                            "walk-in" : {
                                     "half-day" : "$25",
                                     "full-day" : "$35"
                                 }
@@ -32,14 +32,14 @@
                     "capacity" : "2 person",
                     "image" : "https://katyounge.github.io/wdd230/scoots/images/scooter2.webp",
                     "prices" : {
-                        "reservation-prices" : {
+                        "reservation" : {
                             "half-day" : "$30",
                             "full-day" : "$40"
                                     
                                 
                             },
 
-                        "walk-in-prices" : {
+                        "walk-in" : {
                             "half-day" : "$35",
                             "full-day" : "$45"
                             }
@@ -52,14 +52,14 @@
                     "capacity" : "2 person",
                     "image" : "https://katyounge.github.io/wdd230/scoots/images/scooter3.webp",
                     "prices" : {
-                        "reservation-prices" : {
+                        "reservation" : {
                             "half-day" : "$40",
                             "full-day" : "$50"
                                     
                                 
                             },
 
-                        "walk-in-prices" : {
+                        "walk-in" : {
                             "half-day" : "$45",
                             "full-day" : "$55"
                             }
@@ -79,14 +79,14 @@
                     "capacity" : "4 person",
                     "image" : "https://katyounge.github.io/wdd230/scoots/images/atv.webp",
                     "prices" : {
-                        "reservation-prices" : {
+                        "reservation" : {
                             "half-day" : "$50",
                             "full-day" : "$70"
                                     
                                 
                             },
 
-                        "walk-in-prices" : {
+                        "walk-in" : {
                             "half-day" : "$60",
                             "full-day" : "$80"
                             }
@@ -108,14 +108,14 @@
                     "capacity" : "5 person",
                     "image" : "https://katyounge.github.io/wdd230/scoots/images/jeep1.webp",
                     "prices" : {
-                        "reservation-prices" : {
+                        "reservation" : {
                             "half-day" : "$70",
                             "full-day" : "$100"
                                     
                                 
                             },
 
-                        "walk-in-prices" : {
+                        "walk-in" : {
                             "half-day" : "$85",
                             "full-day" : "$125"
                             }
@@ -127,14 +127,14 @@
                     "capacity" : "4 person",
                     "image" : "https://katyounge.github.io/wdd230/scoots/images/jeep2.webp",
                     "prices" : {
-                        "reservation-prices" : {
+                        "reservation" : {
                             "half-day" : "$60",
                             "full-day" : "$85"
                                     
                                 
                             },
 
-                        "walk-in-prices" : {
+                        "walk-in" : {
                             "half-day" : "$70",
                             "full-day" : "$90"
                             }

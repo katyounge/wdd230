@@ -234,6 +234,17 @@ form label.top textarea:focus {
     display: block; 
 }
 
+.social-icons {
+    width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+.social-icons img{
+    width: 40px;
+    padding: 0 .5em;
+}
+
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);

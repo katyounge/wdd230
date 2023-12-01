@@ -94,6 +94,26 @@ main {
     height: auto;
 }
 
+footer {
+    height: 100%;
+    text-align: center;
+    padding: 0rem 0rem 14rem 0em
+}
+
+#footer-contact {
+    float: left;
+    text-align: left;
+    padding: 1rem;
+
+}
+
+#footer-info {
+    float: right;
+    text-align: right;
+    padding: 1rem;
+    
+}
+
 
 
 }

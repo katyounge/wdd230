@@ -23,8 +23,8 @@ const displayRentalCardData = (rentals) => {
             card.setAttribute("class", "rental-card");
             rentalName.textContent = `${make.name}`;
             capacity.textContent = `Capacity - ${make.capacity}`;
-            price.textContent = `Prices starting at ${make.prices}`;
-            console.log(make.prices[0]);
+            // price.textContent = `Prices starting at ${make.prices.reservation-prices.half-day}`;
+            console.log(make.prices);
             image.setAttribute("src", make.image);
             image.setAttribute("alt", make.name);
             image.setAttribute("loading", "lazy");

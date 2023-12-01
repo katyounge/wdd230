@@ -1,23 +1,3 @@
-
-// 
-
-// let visitArray = getDateInfo() || [];
-
-// let visitArray = [];
-
-// let today = new Date();
-
-// visitMessage.textContent = today
-// visitCount.textContent = numVisits
-
-// let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
-
-// if (numVisits == 0) {
-//     visitCount.textContent = 'Welcome! Let us know if you have any questions.'
-// } else if (numVisits > 0 && )
-
-
-
 function setLastVisitDate() {
     localStorage.setItem('lastVisitDate', JSON.stringify(currentVisitDate));
 };
