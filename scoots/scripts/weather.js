@@ -4,8 +4,8 @@ const captionDesc = document.querySelector('#weather-description');
 
 
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=47.74&lon=-121.99&units=imperial&appid=ee2dc236cfc7a44e4ed19315866fcc64';
-const urlForecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=47.74&lon=-121.99&units=imperial&appid=ee2dc236cfc7a44e4ed19315866fcc64';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=20.42&lon=-88.92&units=imperial&appid=ee2dc236cfc7a44e4ed19315866fcc64';
+const urlForecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=20.42&lon=-88.92&units=imperial&appid=ee2dc236cfc7a44e4ed19315866fcc64';
 
 async function apiFetch() {
     try {
@@ -31,6 +31,8 @@ async function apiFetch2() {
         if (response.ok) {
             const data2 = await response.json();
             displayResults2(data2);
+            console.log(data2);
+            
             
         } else {
             throw Error(await response.text());
@@ -60,9 +62,7 @@ function displayResults(data) {
 
 function displayResults2(data2) {
     const oneDayData = document.querySelector('#oneday');
-    const twoDayData = document.getElementById('twoday');
-    const threeDayData = document.getElementById('threeday');
-    oneDayData.innerHTML = `${data2.list[8].main.feels_like.toFixed(0)} &deg;F average`;
-    twoDayData.innerHTML = `${data2.list[16].main.feels_like.toFixed(0)} &deg;F average`;
-    threeDayData.innerHTML = `${data2.list[24].main.feels_like.toFixed(0)} &deg;F average`;
+    const oneEventData = document.getElementById('#onedayevent');
+    oneDayData.innerHTML = `${data2.list[8].main.feels_like.toFixed(0)} &deg;F average temperature`;
+    oneEventData.innerHTML = `${data2.list[8].weather.main.toFixed(0)}`;
 }
