@@ -169,12 +169,19 @@ form label.sbs {
 #joinButton {
     border: none;
     background-color: var(--highlight-color);
-    color: var(--text-color);
+    color: var(--highlight-text-color);
+    font-weight: bold;
     border-radius: .3rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem .4rem;
 }
 
+#rental-agreement-title {
+    font-size: 1.5rem;
+    padding: 1em 0 0 0;
+    margin: 1em 0 0 0;
+    
+}
 
 form label.top input:focus {
     outline-color: var(--highlight-color);
@@ -243,6 +250,11 @@ form label.top textarea:focus {
 .social-icons img{
     width: 40px;
     padding: 0 .5em;
+}
+
+.rental-agreement img {
+    width: 100%;
+    height: auto;
 }
 
 footer {

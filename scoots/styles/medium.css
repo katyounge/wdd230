@@ -94,6 +94,26 @@ main {
     height: auto;
 }
 
+form fieldset {
+    padding: 1em 3em;
+}
+
+
+#map {
+    margin: 3em 0;
+}
+
+#thanks-msg {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.rental-agreement {
+    grid-column: 1 / 3;
+}
+
+
+
 footer {
     height: 100%;
     text-align: center;
