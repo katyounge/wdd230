@@ -14,19 +14,19 @@ getRentalCardData(rentalcardurl);
 const displayRentalCardData = (rentals) => {
     rentals.forEach((rental) => {
 
-        rental.vehicles.forEach ((make) => {
+        rental.vehicles.forEach ((vehicle) => {
             let card = document.createElement('section');
             let rentalName = document.createElement('h3');
             let capacity = document.createElement('h4');
             let price = document.createElement('p');
             let image = document.createElement('img');
             card.setAttribute("class", "rental-card");
-            rentalName.textContent = `${make.name}`;
-            capacity.textContent = `Capacity - ${make.capacity}`;
-            // price.textContent = `Prices starting at ${make.prices.reservation-prices.half-day}`;
-            console.log(make.prices);
-            image.setAttribute("src", make.image);
-            image.setAttribute("alt", make.name);
+            rentalName.textContent = `${vehicle.name}`;
+            capacity.textContent = `Capacity - ${vehicle.capacity}`;
+            price.textContent = `Prices starting at ${vehicle.prices.reservation.halfday}`;
+            console.log(vehicle.prices);
+            image.setAttribute("src", vehicle.image);
+            image.setAttribute("alt", vehicle.name);
             image.setAttribute("loading", "lazy");
             image.setAttribute("width", '1000');
             image.setAttribute("height", '650');
