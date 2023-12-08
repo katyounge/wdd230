@@ -327,6 +327,12 @@ caption {
     font-size: 1.5rem;
 }
 
+nav a:hover, nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
