@@ -1,6 +1,20 @@
+const weatherMain = document.querySelector("#weather-main");
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-description');
+const humidity = document.querySelector('#current-humidity');
+
+const forecastWeatherMain = document.querySelector("#forecast-weather-main");
+const forecastCurrentTemp = document.querySelector('#forecast-current-temp');
+const forecastWeatherIcon = document.querySelector('#forecast-weather-icon');
+const forecastCaptionDesc = document.querySelector('#forecast-weather-description');
+const forecastHumidity = document.querySelector('#forecast-current-humidity');
+
+const now = new Date();
+const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+const timestamp = startOfDay / 1000;
+const forecastTimestamp = timestamp + 140400;
+
 
 
 
@@ -49,6 +63,8 @@ apiFetch2();
 function displayResults(data) {
      
     currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`;
+    weatherMain.innerHTML = data.weather[0].main;
+    humidity.innerHTML = `${data.main.humidity.toFixed(0)}% humidity`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     const capDesc = desc.charAt(0).toUpperCase() + desc.slice(1);
@@ -60,9 +76,25 @@ function displayResults(data) {
 
 
 
-function displayResults2(data2) {
+function displayResults2(data) {
     const oneDayData = document.querySelector('#oneday');
     const oneEventData = document.getElementById('#onedayevent');
-    oneDayData.innerHTML = `${data2.list[8].main.feels_like.toFixed(0)} &deg;F average temperature`;
-    oneEventData.innerHTML = `${data2.list[8].weather.main.toFixed(0)}`;
+
+    forecastWeatherMain.innerHTML =  data.list[9].weather[0].main;
+    forecastCurrentTemp.innerHTML =  `${data.list[9].main.temp.toFixed(0)}&deg;F`
+    const forecastIconSrc = `https://openweathermap.org/img/w/${data.list[9].weather[0].icon}.png`  
+    
+
+    let forecastDesc = data.list[9].weather[0].description;
+    const forecastCapDesc = forecastDesc.charAt(0).toUpperCase() + forecastDesc.slice(1);
+    
+    forecastCaptionDesc.textContent = forecastCapDesc; 
+    forecastHumidity.innerHTML = `${data.list[9].main.humidity.toFixed(0)}% humidity`;
+
+    forecastWeatherIcon.setAttribute("src", forecastIconSrc);
+    forecastWeatherIcon.setAttribute("alt", forecastDesc);
+
+
+    oneDayData.innerHTML = `${data.list[9].main.temp.toFixed(0)} &deg;F average temperature`;
+    // oneEventData.innerHTML = `${data.list[8].weather.main}`;
 }
