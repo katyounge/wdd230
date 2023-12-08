@@ -328,9 +328,9 @@ caption {
 }
 
 nav a:hover, nav a.active {
-    text-decoration: underline;
     font-weight: bold;
-    color: black;
+    color: var(--header-color);
+    background-color: var(--highlight-text-color);
 }
 
 footer {
