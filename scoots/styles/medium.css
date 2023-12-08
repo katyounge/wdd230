@@ -134,6 +134,22 @@ footer {
     
 }
 
+.banner-text {
+    padding: 0;
+}
+
+.banner-exit {
+    position: absolute;
+    top: 8%;
+    left: 92%;
+    padding: 4px;
+}
+
+.json-table {
+    grid-column: 1 / 4;
+    margin: auto;
+}
+
 
 
 }

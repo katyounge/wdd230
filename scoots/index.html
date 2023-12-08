@@ -43,10 +43,15 @@
 
     <main>
 
+        <div class="banner">
+            <p class = "banner-text">Today's maximum temperature is forecast to be <span id=max-temp></span>.</p>
+            <p class="banner-exit"><a href="#">❌</a></p>
+            
+        </div>
+
         <section class="weather">
             <div id = 'current-weather'>
                 <h3>Current Weather</h3>              
-                <!-- <P><span>Temperature: </span><span class="temp">50</span><span> °F</span><span> - Wind Speed: </span><span class="speed">30</span><span>mph</span><span> - Wind Chill: </span><span class="windchill"></span></P> -->
                 <p><img src="#" alt="icon" id="weather-icon"></p>
                 <h4><span id="weather-main"></span></h4>
                 <p><span id="current-temp"></span> - <span id="weather-description"></span> - <span id="current-humidity"></span></p>
@@ -116,5 +121,6 @@
     <script src="scripts/lastmodified.js"></script>
     <script src="scripts/rentalcards.js"></script>
     <script src="scripts/copyrightdate.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

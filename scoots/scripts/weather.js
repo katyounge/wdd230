@@ -15,6 +15,8 @@ const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 const timestamp = startOfDay / 1000;
 const forecastTimestamp = timestamp + 140400;
 
+const maxTemp = document.querySelector("#max-temp");
+
 
 
 
@@ -27,6 +29,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             displayResults(data);
+            console.log(data);
         } else {
             throw Error(await response.text());
         }
@@ -45,7 +48,6 @@ async function apiFetch2() {
         if (response.ok) {
             const data2 = await response.json();
             displayResults2(data2);
-            console.log(data2);
             
             
         } else {
@@ -72,29 +74,29 @@ function displayResults(data) {
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
 
+    maxTemp.innerHTML = `${data.main.temp_max.toFixed(0)}&deg;F`
+
 };
 
 
 
 function displayResults2(data) {
-    const oneDayData = document.querySelector('#oneday');
-    const oneEventData = document.getElementById('#onedayevent');
 
-    forecastWeatherMain.innerHTML =  data.list[9].weather[0].main;
-    forecastCurrentTemp.innerHTML =  `${data.list[9].main.temp.toFixed(0)}&deg;F`
-    const forecastIconSrc = `https://openweathermap.org/img/w/${data.list[9].weather[0].icon}.png`  
+
+    forecastWeatherMain.innerHTML =  data.list[8].weather[0].main;
+    forecastCurrentTemp.innerHTML =  `${data.list[8].main.temp.toFixed(0)}&deg;F`
+    const forecastIconSrc = `https://openweathermap.org/img/w/${data.list[8].weather[0].icon}.png`  
     
 
-    let forecastDesc = data.list[9].weather[0].description;
+    let forecastDesc = data.list[8].weather[0].description;
     const forecastCapDesc = forecastDesc.charAt(0).toUpperCase() + forecastDesc.slice(1);
     
     forecastCaptionDesc.textContent = forecastCapDesc; 
-    forecastHumidity.innerHTML = `${data.list[9].main.humidity.toFixed(0)}% humidity`;
+    forecastHumidity.innerHTML = `${data.list[8].main.humidity.toFixed(0)}% humidity`;
 
     forecastWeatherIcon.setAttribute("src", forecastIconSrc);
     forecastWeatherIcon.setAttribute("alt", forecastDesc);
 
 
-    oneDayData.innerHTML = `${data.list[9].main.temp.toFixed(0)} &deg;F average temperature`;
-    // oneEventData.innerHTML = `${data.list[8].weather.main}`;
+    
 }

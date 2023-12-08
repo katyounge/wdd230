@@ -114,6 +114,10 @@ main {
     text-align: center;
 }
 
+#current-weather {
+    padding-bottom: 2rem;
+}
+
 form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
@@ -255,6 +259,72 @@ form label.top textarea:focus {
 .rental-agreement img {
     width: 100%;
     height: auto;
+}
+
+.banner {
+    grid-column: 1 / 4;
+    text-align: center;
+    box-shadow: 0 0 5px var(--text-color);
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.banner-text {
+    font-size: 1em;
+    padding: 2rem;
+}
+
+.banner-exit {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    padding: 4px;
+}
+
+#hide-banner {
+    display: none;
+}
+
+.banner-exit a {
+    text-decoration: none;
+}
+
+.tablehead2 th {
+    padding: 1em;
+    text-align: center;
+    background-color: var(--header-color);
+    color: var(--highlight-text-color)
+}
+
+.tablehead1 th {
+    padding: 1em;
+    text-align: center;
+    background-color: var(--highlight-color);
+    color: var(--highlight-text-color)
+}
+
+.tablehead1 th.blank {
+    background-color: var(--highlight-text-color);
+}
+tbody td {
+    text-align: center;
+    border: thin solid darkgray;
+    border-collapse: collapse;
+    padding: 1rem 0;
+}
+
+tbody th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 2rem;
+    font-size: 1.5rem;
 }
 
 footer {
