@@ -5,7 +5,6 @@ const rentalcards = document.querySelector('.rental-cards');
 async function getRentalCardData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data.rentals);
     displayRentalCardData(data.rentals);
 }
 
@@ -24,7 +23,6 @@ const displayRentalCardData = (rentals) => {
             rentalName.textContent = `${vehicle.name}`;
             capacity.textContent = `Capacity - ${vehicle.capacity}`;
             price.textContent = `Prices starting at ${vehicle.prices.reservation.halfday}`;
-            console.log(vehicle.prices);
             image.setAttribute("src", vehicle.image);
             image.setAttribute("alt", vehicle.name);
             image.setAttribute("loading", "lazy");
