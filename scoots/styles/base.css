@@ -30,6 +30,8 @@ header img {
     height: 100%;
 }
 
+/* Navigation Menu*/
+
 nav {
     max-width: var(--max-width);
     text-align: center;
@@ -59,12 +61,22 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     color: var(--highlight-text-color);
 }
 
+nav a:hover, nav a.active {
+    font-weight: bold;
+    color: var(--header-color);
+    background-color: var(--highlight-text-color);
+}
+
 .navigation li a {
 	display: block;
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
 	color: var(--highlight-text-color);
+}
+
+.navigation li {
+	display: none;
 }
 
 #menu {
@@ -77,10 +89,6 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     margin-left: auto;
     margin-right: auto;
     width: 23px;
-}
-
-.navigation li {
-	display: none;
 }
 
 #menu::before {
@@ -99,13 +107,44 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 	display: block;
 }
 
+/* --------------------------------------------------------------------------------------- */
+
 main {
     padding: 1rem;
     width: clamp(300px, 100%, var(--max-width));
     margin: auto;
   }
 
-  .weather {
+.banner {
+    grid-column: 1 / 4;
+    text-align: center;
+    box-shadow: 0 0 5px var(--text-color);
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.banner-text {
+    font-size: 1em;
+    padding: 2rem;
+}
+
+.banner-exit {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    padding: 4px;
+}
+
+#hide-banner {
+    display: none;
+}
+
+.banner-exit a {
+    text-decoration: none;
+}
+
+.weather {
     background-color: #414042;
     color: var(--highlight-text-color);
     width: clamp(300px, 100%, var(--max-width));
@@ -117,6 +156,8 @@ main {
 #current-weather {
     padding-bottom: 2rem;
 }
+
+
 
 form label.top input, form label.top select {
     display: block;
@@ -135,6 +176,8 @@ form label.top input, form label.top select {
 ::placeholder {
     color: #58595b;
 }
+
+/* Form Styling */
 
 form fieldset {
     margin: 2rem 0;
@@ -180,13 +223,6 @@ form label.sbs {
     margin: 0 0 2rem .4rem;
 }
 
-#rental-agreement-title {
-    font-size: 1.5rem;
-    padding: 1em 0 0 0;
-    margin: 1em 0 0 0;
-    
-}
-
 form label.top input:focus {
     outline-color: var(--highlight-color);
 }
@@ -195,6 +231,14 @@ form label.top textarea:focus {
     outline-color: var(--highlight-color);
 }
 
+/* --------------------------------------------------------------------------------------- */
+
+#rental-agreement-title {
+    font-size: 1.5rem;
+    padding: 1em 0 0 0;
+    margin: 1em 0 0 0;
+    
+}
 
 #name-heading {
     text-align: center;
@@ -210,6 +254,12 @@ form label.top textarea:focus {
 
 #call-to-action p {
     padding: 2em;
+}
+
+#call-to-action img {
+    width: 60%;
+    margin: auto;
+    padding: 2rem 0 .5rem 0;
 }
 
 #reserve-button {
@@ -261,34 +311,8 @@ form label.top textarea:focus {
     height: auto;
 }
 
-.banner {
-    grid-column: 1 / 4;
-    text-align: center;
-    box-shadow: 0 0 5px var(--text-color);
-    margin: 1em;
-    padding: 1em;
-    position: relative;
-}
 
-.banner-text {
-    font-size: 1em;
-    padding: 2rem;
-}
-
-.banner-exit {
-    position: absolute;
-    top: 25%;
-    left: 90%;
-    padding: 4px;
-}
-
-#hide-banner {
-    display: none;
-}
-
-.banner-exit a {
-    text-decoration: none;
-}
+/* Table Styling */
 
 .tablehead2 th {
     padding: 1em;
@@ -323,16 +347,14 @@ table {
     border-collapse: collapse;
 }
 
+/*----------------------------------------------------------------------------------------------------*/
+
 caption {
     padding: 2rem;
     font-size: 1.5rem;
 }
 
-nav a:hover, nav a.active {
-    font-weight: bold;
-    color: var(--header-color);
-    background-color: var(--highlight-text-color);
-}
+
 
 footer {
     color: var(--highlight-text-color);
