@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--header-font-family);   
 }
 
+/*Header, Menu, and Navigation Styling*/
+
 header {
     max-width: var(--max-width);
     margin: auto auto 30px auto;  
@@ -30,7 +32,6 @@ header img {
     height: 100%;
 }
 
-/* Navigation Menu*/
 
 nav {
     max-width: var(--max-width);
@@ -108,7 +109,7 @@ nav a:hover, nav a.active {
 	display: block;
 }
 
-/* --------------------------------------------------------------------------------------- */
+/* Main Styling */
 
 main {
     padding: 1rem;
@@ -158,25 +159,110 @@ main {
     padding-bottom: 2rem;
 }
 
-
-
-form label.top input, form label.top select {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px var(--text-color);
-    border-radius: 4px;
-    padding: .75rem;
-    color: black;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #f1f2f2;
-    margin: 0rem .4rem;
-    
-}
-
 ::placeholder {
     color: #58595b;
 }
+
+#name-heading {
+    text-align: center;
+}
+
+#call-to-action {
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 1em 1em 2em 1em;
+    max-width: var(--max-width); 
+    color: white;
+}
+
+#call-to-action p {
+    padding: 2em;
+}
+
+#call-to-action img {
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+    padding: 2rem 0 .5rem 0;
+}
+
+#reserve-button {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: var(--highlight-text-color);
+    border-radius: 3px;
+}
+
+.rental-card {
+    box-shadow: 0 0 5px var(--text-color);
+    margin: 1em;
+    padding: 1em;
+}
+.rental-card img {
+    width: 100%;
+    height: auto;
+    max-width: var(--max-width);
+    min-width: 200px;
+}
+
+.rentals-h2 {
+    text-align: center;
+}
+
+.rental-agreement img {
+    width: 100%;
+    height: auto;
+}
+
+#rental-agreement-title {
+    font-size: 1.5rem;
+    padding: 1em 0 0 0;
+    margin: 1em 0 0 0;
+    
+}
+
+.final-image img {
+    max-width: var(--max-width);
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.social-icons {
+    width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+.social-icons img {
+    width: 40px;
+    padding: 0 .5em;
+}
+
+.attribution-photos figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+caption {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+/*Footer Styling*/
+
+footer {
+    color: var(--highlight-text-color);
+    background-color: var(--header-color);
+    padding: 2rem 1rem 1rem 1em;
+    text-align: center;
+    width: clamp(300px, 100%, var(--max-width));
+    margin: auto;
+    
+}
+
+
 
 /* Form Styling */
 
@@ -232,87 +318,19 @@ form label.top textarea:focus {
     outline-color: var(--highlight-color);
 }
 
-/* --------------------------------------------------------------------------------------- */
-
-#rental-agreement-title {
-    font-size: 1.5rem;
-    padding: 1em 0 0 0;
-    margin: 1em 0 0 0;
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--text-color);
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #f1f2f2;
+    margin: 0rem .4rem;
     
 }
-
-#name-heading {
-    text-align: center;
-}
-
-#call-to-action {
-    text-align: center;
-    background-color: var(--header-color);
-    padding: 1em 1em 2em 1em;
-    max-width: var(--max-width); 
-    color: white;
-}
-
-#call-to-action p {
-    padding: 2em;
-}
-
-#call-to-action img {
-    max-width: 350px;
-    height: auto;
-    margin: auto;
-    padding: 2rem 0 .5rem 0;
-}
-
-#reserve-button {
-    text-decoration: none;
-    padding: 0.5rem;
-    background-color: var(--highlight-text-color);
-    border-radius: 3px;
-}
-
-
-.rental-card img {
-    width: 100%;
-    height: auto;
-    max-width: var(--max-width);
-    min-width: 200px;
-}
-
-.rental-card {
-    box-shadow: 0 0 5px var(--text-color);
-    margin: 1em;
-    padding: 1em;
-}
-
-.rentals-h2 {
-    text-align: center;
-}
-
-.final-image img {
-    max-width: var(--max-width);
-    min-width: 300px;
-    width: 100%;
-    height: auto;
-    display: block; 
-}
-
-.social-icons {
-    width: 50%;
-    margin: auto;
-    padding: 2em;
-}
-
-.social-icons img{
-    width: 40px;
-    padding: 0 .5em;
-}
-
-.rental-agreement img {
-    width: 100%;
-    height: auto;
-}
-
 
 /* Table Styling */
 
@@ -347,28 +365,4 @@ tbody th {
 
 table {
     border-collapse: collapse;
-}
-
-/*----------------------------------------------------------------------------------------------------*/
-
-caption {
-    padding: 2rem;
-    font-size: 1.5rem;
-}
-
-
-
-footer {
-    color: var(--highlight-text-color);
-    background-color: var(--header-color);
-    padding: 2rem 1rem 1rem 1em;
-    text-align: center;
-    width: clamp(300px, 100%, var(--max-width));
-    margin: auto;
-    
-}
-
-.attribution-photos figure img {
-    max-width: 100%;
-    height: auto;
 }

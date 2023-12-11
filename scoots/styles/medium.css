@@ -11,13 +11,10 @@
         --max-width: 920px;
     }
 
-
-
     /*Header, Menu, and Navigation Styling*/
     #menu {
-    display: none;
+        display: none;
     }
-
 
     header img {
         max-width: var(--max-width);
@@ -50,8 +47,6 @@
     nav ul li {
         flex: 1 1 100%;  
     }
-
-
 
     /*Main Styling*/
 
@@ -143,9 +138,6 @@
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-column: 1 / 4;
     }
-
-    
-
 
     /*Footer Styling*/
 
