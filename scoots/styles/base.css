@@ -257,7 +257,8 @@ form label.top textarea:focus {
 }
 
 #call-to-action img {
-    width: 60%;
+    max-width: 350px;
+    height: auto;
     margin: auto;
     padding: 2rem 0 .5rem 0;
 }
