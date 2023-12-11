@@ -311,11 +311,12 @@ tbody td {
     text-align: center;
     border: thin solid darkgray;
     border-collapse: collapse;
-    padding: 1rem 0;
+    padding: 1rem .5rem;
 }
 
 tbody th {
     text-align: left;
+    padding-right: 1rem;
 }
 
 table {
@@ -336,9 +337,14 @@ nav a:hover, nav a.active {
 footer {
     color: var(--highlight-text-color);
     background-color: var(--header-color);
-    padding: 2rem 0rem 2rem 0em;
+    padding: 2rem 1rem 1rem 1em;
     text-align: center;
     width: clamp(300px, 100%, var(--max-width));
     margin: auto;
     
+}
+
+.attribution-photos figure img {
+    max-width: 100%;
+    height: auto;
 }

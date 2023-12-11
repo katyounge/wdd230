@@ -150,6 +150,17 @@ footer {
     margin: auto;
 }
 
+.photo-sources, .attribution-text {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.attribution-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-column: 1 / 4;
+}
+
 
 
 }
