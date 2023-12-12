@@ -62,13 +62,6 @@ nav a:link, nav a:visited {
     color: var(--highlight-text-color);
 }
 
-nav a:hover, nav a.active {
-    font-weight: bold;
-    color: var(--header-color);
-    background-color: var(--highlight-text-color);
-    text-decoration: none;
-}
-
 .navigation li a {
 	display: block;
 	padding: 1rem;
@@ -79,6 +72,13 @@ nav a:hover, nav a.active {
 
 .navigation li {
 	display: none;
+}
+
+nav a:hover, nav a.active {
+    font-weight: bold;
+    color: var(--header-color);
+    background-color: var(--highlight-text-color);
+    text-decoration: none;
 }
 
 #menu {
