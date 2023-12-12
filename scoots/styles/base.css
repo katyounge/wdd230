@@ -36,10 +36,9 @@ header img {
 nav {
     max-width: var(--max-width);
     text-align: center;
-    background: var(--header-color);
     margin: auto;
     color: var(--highlight-text-color);
-    background-color: var(--highlight-color);
+    background-color: var(--header-color);
 }
 
 nav ul {
@@ -85,7 +84,7 @@ nav a:hover, nav a.active {
 	font-size: 1.5rem;
 	padding: 6px 7px 6px;
 	color: var(--highlight-text-color);
-    background-color: var(--highlight-color);
+    background-color: var(--header-color);
     text-decoration: none;
     margin: auto;
     display: block;
